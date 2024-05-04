@@ -1,0 +1,136 @@
+{
+    "status": "DUMMY",
+    "totalResults": 10,
+    "articles": [
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Sean O'Kane",
+            "title": "Luminar cuts 20% of staff and outsources lidar production | TechCrunch",
+            "description": "Luminar is slashing its workforce by 20% and will lean harder on its contract manufacturing partner as part of a restructuring.",
+            "url": "https://techcrunch.com/2024/05/03/luminar-layoffs-reduction-restructuring-lidar/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/04/Screenshot-2023-04-18-at-11.23.28-AM.png?w=1026",
+            "publishedAt": "2024-05-03T21:34:44Z",
+            "content": "Lidar company Luminar is slashing its workforce by 20% and will lean harder on its contract manufacturing partner as part of a restructuring that will shift the company to a more “asset-light” busine… [+1639 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Alyssa Stringer and Cody Corrall",
+            "title": "A comprehensive list of 2024 tech layoffs | TechCrunch",
+            "description": "A complete list of all the known layoffs in tech, from Big Tech to startups, broken down by month throughout 2023 and 2024.",
+            "url": "https://techcrunch.com/2024/05/03/tech-layoffs-2023-list/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/02/layoffs.jpg?resize=1200,645",
+            "publishedAt": "2024-05-03T20:49:38Z",
+            "content": "The tech layoff wave is still going strong in 2024. Following significant workforce reductions in 2022 and 2023, this year has already seen 60,000 job cuts across 254 companies, according to independ… [+17276 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Sarah Perez",
+            "title": "X launches Stories on X delivering news summarized by Grok AI | TechCrunch",
+            "description": "X's Premium subscribers will be able to read a summary of posts on X associated with each trending story featured on the \"For You\" tab in Explore.",
+            "url": "https://techcrunch.com/2024/05/03/x-launches-stories-on-x-delivering-news-summarized-by-grok-ai/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/08/twitter-x-logo-musk-pattern.jpg?resize=1200,675",
+            "publishedAt": "2024-05-03T20:16:20Z",
+            "content": "X, formerly Twitter, is now using Elon Musk’s AI chatbot Grok to power a feature that summarizes the personalized trending stories in the app’s Explore section. According to an announcement and scree… [+4945 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Lauren Forristal",
+            "title": "Match-owned Archer hits over half a million installs amid dating app slump | TechCrunch",
+            "description": "It’s been almost one year since Match Group announced the launch of Archer, the online dating giant’s first app for gay, bi, and queer men. Since rolling Since launching, Archer has been downloaded over 685K times, according to Sensor Tower estimates.",
+            "url": "https://techcrunch.com/2024/05/03/match-owned-archer-hits-over-half-a-million-installs-amid-dating-app-slump/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/05/Archer-Profile-Landscape.jpg?resize=1200,675",
+            "publishedAt": "2024-05-03T19:46:36Z",
+            "content": "Its been almost one year since Match Group announced the launch of Archer, the online dating giants first app for gay, bi, and queer men. Since rolling out to New York last June, Archer has been down… [+3671 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Sarah Perez",
+            "title": "Three things we learned about Apple's AI plans from its earnings | TechCrunch",
+            "description": "Despite spending more than $100 billion on R&D over the last five years, Apple isn't planning to spin up too many new data centers to run or train AI models.",
+            "url": "https://techcrunch.com/2024/05/03/three-things-we-learned-about-apples-ai-plans-from-its-earnings/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2017/04/gettyimages-528771760.jpg?resize=1200,800",
+            "publishedAt": "2024-05-03T18:59:51Z",
+            "content": "Apple CEO Tim Cook didn’t give much away about the company’s AI plans on Thursday’s Q2 earnings call with investors, but he did confirm a few tidbits about how the tech giant plans to move forward wi… [+4822 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Sean O'Kane",
+            "title": "Fisker stiffed the engineering firm developing its low-cost EV and pickup truck, lawsuit claims | TechCrunch",
+            "description": "Bertrandt AG is claiming it suffered $13 million in damages, as lawsuits against the struggling EV startup begin to pile up.",
+            "url": "https://techcrunch.com/2024/05/03/fisker-pear-alaska-lawsuit-engineering-class-action/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/03/fisker-GettyImages.jpg?resize=1200,800",
+            "publishedAt": "2024-05-03T18:53:43Z",
+            "content": "Henrik Fisker stood on a stage last August and proudly debuted two prototypes designed to catapult his eponymous EV startup Fisker into the mainstream. There was the Pear, a low-cost EV meant for the… [+7227 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Aisha Malik",
+            "title": "Instagram now lets you post a secret Story that viewers can uncover with a DM | TechCrunch",
+            "description": "Instagram is adding a handful of new features for Stories to give users more creative ways to share content and engage with each other.",
+            "url": "https://techcrunch.com/2024/05/03/instagram-now-lets-you-post-a-secret-story-that-viewers-can-uncover-with-a-dm/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/01/GettyImages-1228781108.jpg?resize=1200,798",
+            "publishedAt": "2024-05-03T18:36:47Z",
+            "content": "Instagram is adding a handful of new features for Stories to give users more creative ways to share content and engage with each other, the company announced on Friday. Most notably, the social netwo… [+2717 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Jagmeet Singh",
+            "title": "Exclusive: Sprinklr lays off more than 100 employees",
+            "description": "Customer experience management firm Sprinklr has laid off about 3% of its workforce — around 116 people worldwide.",
+            "url": "https://techcrunch.com/2024/05/03/sprinklr-lays-off-more-than-100-employees/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/sprinklr-image.jpg?w=1200",
+            "publishedAt": "2024-05-03T18:17:17Z",
+            "content": "Sprinklr, a U.S. firm offering a customer experience management platform to global brands, has laid off about 3% of its workforce around 116 people to realign its customer operations team, the compan… [+2240 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Rebecca Szkutak",
+            "title": "Despite recent successes, IPO market still won't fully open until 2025 | TechCrunch",
+            "description": "Experts say macroeconomic factors including the upcoming election and the current state of the economy will deter too many IPOs this year.",
+            "url": "https://techcrunch.com/2024/05/03/despite-recent-successes-ipo-market-still-wont-fully-open-until-2025/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/GettyImages-914309830.jpg?resize=1200,840",
+            "publishedAt": "2024-05-03T18:09:29Z",
+            "content": "This year already proved that startups are willing to go public in a less-than-ideal market and get rewarded for it, too. But bankers, lawyers and investors said the recent IPO successes aren’t enoug… [+4158 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Haje Jan Kamps",
+            "title": "Musk raises $6B for AI startup. Also, is TikTok dodging Apple's commissions? | TechCrunch",
+            "description": "Welcome to Startups Weekly — Haje’s weekly recap of everything you can’t miss from the world of startups. Sign up here to get it in your inbox every",
+            "url": "https://techcrunch.com/2024/05/03/xai-billions-and-apple-vs-tiktok-startups-weekly/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/04/GettyImages-2147787483.jpg?resize=1200,675",
+            "publishedAt": "2024-05-03T01:59:47Z",
+            "content": "Welcome to Startups WeeklyHajes weekly recap of everything you cant miss from the world of startups. Sign up here to get it in your inbox every Friday.\r\nMusks 10-month-old baby, xAI, is closing in on… [+8333 chars]"
+        }
+    ]
+}
