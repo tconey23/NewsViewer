@@ -37,9 +37,12 @@ useEffect(() => {
 
   return (
     <main>
-      <Routes>
-        {articles && <Route path='/'  element={<MainPage props={articles}/>}/>}
-      </Routes>
+      <nav>techToday</nav>
+      <div id='appContainer'>
+        <Routes>
+          {articles && <Route path='/'  element={<MainPage props={articles}/>}/>}
+        </Routes>
+      </div>
     </main>
 
   );
