@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+nav{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  background: aliceblue;
+  border: 1px solid black;
+  font-size: 30px;
+}
+
+#appContainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,35 @@
+#headlineCard{
+    height: 200px;
+    width: 70vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    #imageContainer{
+        display: flex;
+        width: 315px;
+        overflow: hidden;
+        margin: 0px 20px 0px 20px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        min-width: 315px;
+        img{
+            width: 80%;
+            max-height: 160px;;
+        }
+    }
+}
+p{
+    font-size: 10px;
+    margin: 1px 0px 0px 0px;
+}
+h2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    max-width: 45vw;
+}
