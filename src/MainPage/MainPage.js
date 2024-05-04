@@ -1,6 +1,6 @@
 import './MainPage.css'
 
-export default MainPage = () => {
+const MainPage = () => {
 
 
 
@@ -9,3 +9,5 @@ export default MainPage = () => {
         </>
     )
 }
+
+export default MainPage
