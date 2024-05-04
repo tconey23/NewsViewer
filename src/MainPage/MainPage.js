@@ -1,12 +1,13 @@
+import { useEffect } from 'react'
 import './MainPage.css'
+import Articles from '../Articles/Articles'
 
-const MainPage = () => {
+const MainPage = ({props}) => {
 
 
 
     return(
-        <>
-        </>
+        <Articles props={props}/>
     )
 }
 
