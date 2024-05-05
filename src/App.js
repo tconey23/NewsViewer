@@ -49,7 +49,7 @@ useEffect(() => {
       <div id='appContainer'>
         <Routes>
           {articles && 
-            <Route path='/'  element={<MainPage viewArticle={viewArticle} outletVisible={outletVisible} props={articles}/>}>
+            <Route path='/'  element={<MainPage viewArticle={viewArticle} outletVisible={outletVisible} articles={articles}/>}>
               <Route path='/' element={<FullArticle toggleOutlet={toggleOutlet} displayArticle={displayArticle}/>}></Route>
             </Route>
           }

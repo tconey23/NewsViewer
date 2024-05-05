@@ -1,12 +1,15 @@
 #headlineCard{
     height: 200px;
     width: 70vw;
-    border: 1px solid black;
+    border: 1px solid #5a5a5a87;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: flex-start;
+    background: linear-gradient(45deg, #a62f008c, #00000080);
+    color: #ffffff;
+    margin: 8px;
     #imageContainer{
         display: flex;
         width: 315px;

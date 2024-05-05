@@ -2,15 +2,14 @@ import './Articles.css'
 import { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
-const Articles = ({props, articleDetail}) => {
-    const {articles} = props 
+const Articles = ({articles, articleDetail}) => {
     let listHeadlines
 
     const handleClick = (article) => {
         articleDetail(article)
     }
 
-    if(props){
+    if(articles){
         listHeadlines = articles.map((article) => {
             const index = article.title.indexOf('|')
             const timeIndex = article.publishedAt.indexOf('T')
@@ -23,7 +22,7 @@ const Articles = ({props, articleDetail}) => {
             }
 
             return(
-                <section id='headlineCard'>
+                <section id='headlineCard' date={headlineTime}>
                     <section id='imageContainer'>
                         <img src={article.urlToImage}></img>
                         <p>Published on: {headlineTime}</p>
