@@ -11,7 +11,7 @@ import {Route, Routes} from 'react-router-dom'
 function App() {
 
 const [articles, setArticles] = useState()
-const [liveData, setLiveData] = useState(false)
+const [liveData, setLiveData] = useState(true)
 
 const [displayArticle, setDisplayArticle] = useState()
 const [outletVisible, setOutletVisible] = useState(false)
