@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import MainPage from './MainPage/MainPage';
 import FullArticle from './FullArticle/FullArticle';
+import Error from './Error/Error';
 import { getNews } from './APICalls';
 import React, {useEffect, useState} from 'react'
 import DummyNews from './DummyNews.json'
@@ -50,9 +51,9 @@ useEffect(() => {
           {articles && 
             <Route path='/'  element={<MainPage viewArticle={viewArticle} outletVisible={outletVisible} props={articles}/>}>
               <Route path='/' element={<FullArticle toggleOutlet={toggleOutlet} displayArticle={displayArticle}/>}></Route>
-              <Route path="*" element={<Error />} />
             </Route>
           }
+        <Route path="*" element={<Error />} />
         </Routes>
       </div>
     </main>
