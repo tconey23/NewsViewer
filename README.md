@@ -25,6 +25,7 @@ npm start
 
 ## Additional features
 - Users may sort articles by date. Either in ascending or descending order
+- -Users are also provide with links to the main article
 
 ## Technologies used
 - React
