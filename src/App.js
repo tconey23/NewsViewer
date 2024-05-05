@@ -13,13 +13,15 @@ const [articles, setArticles] = useState()
 const [liveData, setLiveData] = useState(false)
 
 const [displayArticle, setDisplayArticle] = useState()
-const [outletVisible, setOutletVisible] = useState(true)
+const [outletVisible, setOutletVisible] = useState(false)
 
 const viewArticle = articleDetail => {
     setDisplayArticle(articleDetail)
+    setOutletVisible(true)
 }
 const toggleOutlet = () => {
   setDisplayArticle('')
+  setOutletVisible(false)
 }
 
 useEffect(() => {
@@ -40,20 +42,15 @@ useEffect(() => {
   
 }, [])
 
-// useEffect(() => {
-//   if(articles){
-//     console.log(articles)
-//   }
-// }, [articles])
-
   return (
     <main>
       <nav>techToday</nav>
       <div id='appContainer'>
         <Routes>
           {articles && 
-            <Route path='/'  element={<MainPage viewArticle={viewArticle} props={articles}/>}>
-              {outletVisible && <Route path='/' element={<FullArticle toggleOutlet={toggleOutlet} displayArticle={displayArticle}/>}></Route>}
+            <Route path='/'  element={<MainPage viewArticle={viewArticle} outletVisible={outletVisible} props={articles}/>}>
+              <Route path='/' element={<FullArticle toggleOutlet={toggleOutlet} displayArticle={displayArticle}/>}></Route>
+              <Route path="*" element={<Error />} />
             </Route>
           }
         </Routes>

@@ -1,5 +1,6 @@
 import './FullArticle.css'
 import { NavLink } from 'react-router-dom'
+import { useEffect } from 'react'
 
 const FullArticle = ({displayArticle, toggleOutlet}) => {
 
@@ -7,15 +8,18 @@ const FullArticle = ({displayArticle, toggleOutlet}) => {
         toggleOutlet(false)
     }
 
+    const timeIndex = displayArticle.publishedAt.indexOf('T')
+    const headlineTime = displayArticle.publishedAt.substring(0, timeIndex)
+
     return (
         <>
-        {displayArticle &&
+        {displayArticle && 
         <>
             <button onClick={handleOutlet}>close</button>
-            <img src={displayArticle.urlToImage}></img>
             <h2>{displayArticle.title}</h2>
-            <span><p>{displayArticle.publishedAt}</p><p>{displayArticle.author}</p></span>
-            <p>{displayArticle.content}</p>
+            <img src={displayArticle.urlToImage}></img>
+            <span><p>Published on: {headlineTime}</p><p>Written by: {displayArticle.author}</p></span>
+            <p id='articleContent'>{displayArticle.content}</p>
             <NavLink to={displayArticle.url}>Go to {displayArticle.source.name}'s article </NavLink>
         </>
         }

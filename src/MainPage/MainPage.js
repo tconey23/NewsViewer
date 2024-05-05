@@ -4,15 +4,18 @@ import Articles from '../Articles/Articles'
 import { useState } from 'react'
 import { Outlet } from 'react-router-dom'
 
-const MainPage = ({props, viewArticle}) => {
-
+const MainPage = ({props, viewArticle, outletVisible}) => {
 
     return(
         <>
-        <Outlet>
-            <div></div>
-        </Outlet>
-        <Articles props={props} articleDetail={viewArticle}/>
+        {outletVisible && 
+            <div id='fullArticle'>
+                <Outlet />
+            </div>
+        }
+        <div id='articleList'>
+            <Articles props={props} articleDetail={viewArticle}/>
+        </div>
         </>
     )
 }
