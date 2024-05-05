@@ -60,3 +60,40 @@ nav{
   align-items: center;
   justify-content: center;
 }
+
+#fullArticle {
+  position: fixed;
+  top: 80px;
+  background: white;
+  padding: 45px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 30px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  img{
+    width: 500px;
+  }
+  button{
+    align-self: flex-end;
+  }
+  #articleContent{
+    height: 200px;
+    font-size: 19px;
+    align-content: flex-start
+  }
+  span{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    p{
+      margin-left: 10px;
+    }
+  }
+}
